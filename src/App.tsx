@@ -205,8 +205,19 @@ function App() {
       </section>
 
       <footer className="footer">
-        © {new Date().getFullYear()} Maria Luiza De Pietro Lopes
-      </footer>
+      <p>© {new Date().getFullYear()} Maria Luiza De Pietro Lopes</p>
+
+      <p className="footer-credit">
+        Desenvolvido por{' '}
+        <a
+          href="https://www.pedromachado.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Pedro Machado
+        </a>
+      </p>
+    </footer>
     </div>
   );
 }

@@ -471,9 +471,36 @@
 
 .footer {
   text-align: center;
-  padding: 40px 20px;
+  padding: 42px 20px;
   border-top: 1px solid var(--border);
   color: var(--text-secondary);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.footer-credit {
+  font-size: 0.9rem;
+}
+
+.footer-credit a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(16, 185, 129, 0.45);
+  transition: all 0.2s ease;
+}
+
+.footer-credit a:hover {
+  color: #34d399;
+  border-bottom-color: #34d399;
 }
 
 /* ANIMATIONS */
